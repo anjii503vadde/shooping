@@ -1,0 +1,51 @@
+// add your custom styles here
+.quantity-input {
+    width: 30px;
+    text-align: center;
+}
+
+html 
+{
+    font-size: 1rem;
+}
+
+a 
+{
+    color: #0051A3;
+}
+
+.btn-primary 
+{
+    background-color: #0051AD;
+}
+
+@include media-breakpoint-down(sm) 
+{
+    html 
+    {
+        font-size: .5rem;
+    }
+} 
+@include media-breakpoint-up(sm) 
+{
+    html 
+    {
+        font-size: .7rem;
+    }
+}
+
+@include media-breakpoint-up(md) 
+{
+    html 
+    {
+        font-size: .8rem;
+    }
+}
+
+@include media-breakpoint-up(lg) 
+{
+    html 
+    {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "cart": 
+    [
+        { 
+            "id": 1,             
+            "productId": "MS13KT1906",
+            "productName": "SOLID GREEN COTTON T-SHIRT", 
+            "productDetails": "A simple cotton t-shirt for men and women",
+            "imageURLs": 
+            [
+                "./src/img/green.jpg"
+            ],
+            "brand": "LEVIS",
+            "color": "GREEN",
+            "price": 10,
+            "quantity": 1,
+            "size": "L"
+        },
+        { 
+            "id": 2,             
+            "productId": "MS13KT1907",
+            "productName": "BLUE SHIRT", 
+            "productDetails": "Blue shirt for men only",
+            "imageURLs":
+            [
+                "./src/img/blue.jpg"
+            ],
+            "brand": "LEVIS",
+            "color": "BLUE",
+            "price": 5,
+            "quantity": 1,
+            "size": "M"
+        },
+        { 
+            "id": 3,             
+            "productId": "MS13KT1908",
+            "productName": "PINK T-SHIRT FOR WOMEN", 
+            "productDetails": "A simple cotton t-shirt for women",
+            "imageURLs": 
+            [
+                "./src/img/pink"
+            ],
+            "brand": "LEVIS",
+            "color": "PINK",
+            "price": 8,
+            "quantity": 5,
+            "size": "L"
+        }
+    ],
+    "promocode":
+    [
+        {
+            "id": "PROMO1",
+            "amount": 2
+        },
+        {
+            "id": "PROMO2",
+            "amount": 3
+        }
+    ]
+}
